@@ -38,7 +38,7 @@ The STA Path Violation Checker automates analysis of STA reports, efficiently id
 - **Dependencies**:
   - Perl with `Parallel::ForkManager` module
   - Python 3 with `PyQt5`
-  - C compiler (e.g., `gcc`)
+  - C compiler
 
 ## Usage
 
@@ -64,4 +64,4 @@ The STA Path Violation Checker automates analysis of STA reports, efficiently id
   
 ## Disclaimer
 
-This is a temporary implementation for STA report path violation checks. Specific details and functionalities may be restricted due to confidentiality.
+This is a temporary implementation for STA report path violation checks. Specific details and functionalities are restricted due to confidentiality.
