@@ -8,27 +8,30 @@ The STA Path Violation Checker automates analysis of STA reports, efficiently id
 
 ## Components
 
-1. **C Program** (`main.c`):
+1. **`main.c`**:
    - Generates random simulated path data for testing.
 
-2. **Perl Script** (`check_sta_violations.pl`):
+2. **`check_sta_violations.pl`**:
    - Parses large STA reports to identify path violations.
    - Uses parallel processing for improved performance.
 
-3. **Python PyQt GUI** (`gui_result.py`):
+3. **`gui_result.py`**:
    - User-friendly interface to view and filter violation results.
    - Supports pagination and search features.
 
-4. **Bash Script** (`run_analysis.sh`):
+4. **`run_analysis.sh`**:
    - Orchestrates execution of analysis pipeline.
    - Provides robust logging and error handling.
+  
+5. **`check.c`**:
+   - Check any other violations in STA and show the result.
 
 ## Features
 
-- **Scalability**: Processes large STA reports efficiently.
-- **Parallel Processing**: Speeds up data parsing.
-- **Interactive GUI**: Intuitive interface for viewing results with pagination.
-- **Comprehensive Logging**: Tracks analysis process and captures errors.
+- **Scalability**
+- **Parallel Processing**
+- **Interactive GUI**
+- **Comprehensive Logging**
 
 ## Requirements
 
