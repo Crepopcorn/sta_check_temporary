@@ -9,7 +9,7 @@ The STA Path Violation Checker automates analysis of STA reports, efficiently id
 ## Components
 
 1. **C Program** (`main.c`):
-   - Generates simulated path data for testing.
+   - Generates random simulated path data for testing.
 
 2. **Perl Script** (`check_sta_violations.pl`):
    - Parses large STA reports to identify path violations.
