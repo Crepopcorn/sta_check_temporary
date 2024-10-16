@@ -3,6 +3,8 @@
 #include <string.h>
 #include <ctype.h>
 
+// used for check other violations in path from STA report
+
 #define MAX_LINE_LEN 1024
 #define MAX_PATHS 1000000
 
